@@ -1,12 +1,12 @@
-[# Web-kadai](https://samirgaire10.github.io/Web-kadai/top_page/)https://samirgaire10.github.io/Web-kadai/top_page/
-
-
-
 <h1 align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hi+👋,+I'm+samir+gaire;Hi+👋,+私は,+ガイレ+サミル;Hi+👋,+म+समिर‌+गैरे+हो;)](https://samirgaire10.github.io/Portfolio/)
 </h1>
 <p align="center">A tech enthusiast with a passion for open-source technology and programming  languages like Python and C .</p>
+
+  [Home page ](https://samirgaire10.github.io/Web-kadai/top_page/) 🙂🙂🙂
+
+
 
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=samirgaire10&show_icons=true&theme=tokyonight)](https://github.com/samirgaire10)
