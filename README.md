@@ -4,7 +4,8 @@
 </h1>
 <p align="center">A tech enthusiast with a passion for open-source technology and programming  languages like Python and C .</p>
 
-  [Home page ](https://samirgaire10.github.io/Web-kadai/top_page/) 🙂🙂🙂
+
+ [Home page ](https://samirgaire10.github.io/Web-kadai/top_page/) 🙂🙂🙂
 
 
 
