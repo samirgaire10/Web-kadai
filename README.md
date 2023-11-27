@@ -4,10 +4,7 @@
 </h1>
 <p align="center">A tech enthusiast with a passion for open-source technology and programming  languages like Python and C .</p>
 
-
- [Home page ](https://samirgaire10.github.io/Web-kadai/top_page/) 🙂🙂🙂
-
-
+- 👨‍💻  Go to website  [Github](https://samirgaire10.github.io/Web-kadai/top_page/)  🙂🙂🙂
 
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=samirgaire10&show_icons=true&theme=tokyonight)](https://github.com/samirgaire10)
