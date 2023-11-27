@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="このサイトでは、日本工学院専門学校の魅力を発信しています。">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>日本工学院の紹介</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="./js/jquery-1.11.0.min.js"></script>
+    <script src="./js/myfunctions.js"></script>
+
+
+    <style>
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        body {
+            background-color: skyblue;
+        }
+
+        footer {
+            text-align: center;
+            font-size: larger;
+            padding-top: 2%;
+        }
+
+        section dl,
+        aside,
+        nav,
+        main {
+            padding-left: 30%;
+        }
+
+        .nav-links {
+            gap: 2rem;
+            list-style: none;
+            font-size: 1.5rem;
+            display: flex;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <p style="font-size: larger;">作成者:K023C2019 ガイレサミル</p>
+        <h1>私の日本工学院</h1>
+    </header>
+
+    <div>
+        <a href="../top_page/index.html">トップページ</a>
+        <span>&gt;</span>コンタクト
+    </div>
+
+    <h2>コンタクトフォーム</h2>
+
+    <main>
+
+
+        <form name="inquiry" id="id_inquiry" action="#" method="post" onSubmit="return submitWarning();"
+            onReset="return resetWarning();">
+            <dl>
+                <dt>
+                    ●表題<span class="must">※</span>
+                </dt>
+                <dd>
+                    <div class='class_subject'>
+                        <label><input type="checkbox" name="subject" id="id_subject" value="応援メッセージ">応援メッセージ</label>
+
+                        <label><input type="checkbox" name="subject" id="id_subject" value="質問">質問</label>
+                        <label><input type="checkbox" name="subject" id="id_subject" value="その他">その他</label>
+
+                    </div>
+
+                    5
+
+                </dd>
+                <dt>
+                    <label for="id_name">●氏名</label><span class="must">※</span>
+                </dt>
+                <dd>
+                    <input type="text" name="name" id="id_name" size="30" placeholder="蒲田 一郎" required>
+
+                </dd>
+                <dt>
+                    <label for="id_kana">●ふりがな</label><span class="must">※</span>
+                </dt>
+                <dd>
+                    <input type="text" name="kana" id="id_kana" size="30" placeholder="かまた いちろう" required>
+
+                </dd>
+                <dt>
+                    <label for="id_email">●メールアドレス</label><span class="must">※</span>
+                </dt>
+                <dd>
+                    <input type="email" name="email" id="id_email" size="40" placeholder="k.i@it-neec.jp" required>
+
+                </dd>
+                <dt>
+                    <label for="id_mobile_tel">●電話</label>
+                </dt>
+                <dd>
+                    <input type="tel" name="mobile_tel" id="id_mobile_tel" placeholder="000-0000-0000">
+
+                </dd>
+                <dt>
+                    ●性別
+                </dt>
+                <dd>
+                    <label><input type="radio" name="gender" id="id_gender" value="男">
+                        男</label>
+                    <label><input type="radio" name="gender" id="id_gender" value="女">
+                        女</label>
+
+                </dd>
+                <dt>
+                    <label for="id_send_date">●送信日</label>
+                </dt>
+                <dd>
+                    <input type="date" name="send_date" id="id_send_date">
+                </dd>
+                <dt>
+
+                    6
+
+                    <label for="id_relationship">●学校との関わり</label>
+                </dt>
+                <dd>
+                    <select name="relationship" id="id_relationship">
+                        <option value="">選択してください</option>
+                        <option value="卒業生">卒業生</option>
+                        <option value="在校生">在校生</option>
+                        <option value="その他">その他</option>
+                    </select>
+                </dd>
+                <dt>
+                    <label for="message">●メッセージ</label>
+                </dt>
+                <dd>
+                    <textarea name="message" id="id_message" cols="50" rows="10" placeholder="ここにメッセージを入力してください"
+                        required></textarea>
+
+                </dd>
+            </dl>
+            <p class="button">
+                <input type="button" class="send" name="submit_test" value="確認" onClick="onButtonClick();">
+
+                <input type="reset" name="reset" value="リセット">
+                <input type="submit" class="send" name="submit" value="送信">
+            </p>
+        </form>
+        <hr>
+        【送信内容】
+        <div id="output"></div>
+        <p>用 件:<span id="span_subject"></span></p>
+        <p>氏 名:<span id="span_name"></span></p>
+        <p>ふりがな :<span id="span_kana"></span></p>
+        <p>メ ー ル:<span id="span_email"></span></p>
+        <p>電 話:<span id="span_mobile_tel"></span></p>
+        <p>性 別:<span id="span_gender"></span></p>
+        <p>日 付:<span id="span_send_date"></span></p>
+        <p>関 係:<span id="span_relationship"></span></p>
+        <p>メッセージ:<br><span id="span_message"></span></p>
+    </main>
+
+
+
+    <a href="index.html">←ホームに戻る</a>
+
+    <footer>
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a href="https://samirgaire10.github.io/Portfolio/lg/jp.html">Portfolio</a>
+                </li>
+                <li><a href="https://github.com/samirgaire10/">Github</a></li>
+                <li>
+                    <a href="https://samirgaire10.github.io/High-School-Web-Projects/">High School Projects</a>
+                </li>
+                <li>
+                    <a href="https://samirgaire10.github.io/kamata/">蒲田 Projects</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        Copyright &copy; 2023 <b> @samirgaire10 </b>All Rights Reserved.
+    </footer>
+</body>
+
+</html>
