@@ -1,0 +1,27 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: skyblue;
+}
+
+footer {
+    text-align: center;
+    font-size: larger;
+    padding-top: 2%;
+}
+
+section dl,
+aside,
+nav {
+    padding-left: 30%;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+}
