@@ -1,0 +1,93 @@
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+body {
+    background-color: peachpuff;
+}
+
+footer {
+    text-align: center;
+    font-size: larger;
+    padding-top: 2%;
+}
+
+section dl,
+aside,
+nav,
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+span div p {
+    font-size: larger;
+    background-color: peachpuff;
+}
+
+#toggleDark {
+    padding-left: 92%;
+}
+
+.nihonnkogakuin {
+    background-color: firebrick;
+    border-style: 4px dashed ivory;
+    color: ivory;
+    padding: 1em;
+    border-radius: 8px;
+    font-size: 8px;
+    box-shadow: 0 0 0 4px firebrick;
+    font-family: sans-serif;
+    font-size: 3em;
+}
+
+.floortitle1 {
+    font-size: 2em;
+    color: teal;
+    font-style: sans-serif;
+    /* padding-left: 8px; */
+    border-left: 4px solid teal;
+}
+
+
+
+.floortitle4 {
+    font-size: 1.5em;
+    color: darkolivegreen;
+    font-style: sans-serif;
+    text-align: justify;
+
+}
+
+
+.floortitle4::before {
+    content: '★';
+    color: darkolivegreen;
+}
+
+.floortitle4::after {
+    content: '★';
+    color: darkolivegreen;
+}
+
+
+
+
+.floorparagraph1 {
+    font-size: 1em;
+    font-family: serif;
+    color: dimgray;
+
+    line-height: 1.5;
+    text-indent: 1em;
+    text-align: justify;
+}
