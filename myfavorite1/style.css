@@ -1,0 +1,66 @@
+﻿@charset "UTF-8";
+
+/* 本文の基本スタイル */
+body {
+	font-family: "Kosugi Maru", sans-serif;
+}
+
+/* Webサイトのタイトルのスタイル */
+#site_title {
+}
+
+/* メインタイトルのスタイル */
+#main_title {
+	border-radius: 8px;
+	box-shadow: 0 0 0 4px #ff7f7f;
+	font-family:  "M PLUS Rounded 1c", sans-serif;
+}
+
+/* サブタイトルのスタイル */
+#sub_title {
+	border-radius: 8px;
+}
+
+#sub_title_head {
+	font-family: "Lobster Two", sans-serif;
+}
+
+#sub_title_body {
+	font-family:  "M PLUS Rounded 1c", sans-serif;
+}
+
+/* ロゴのスタイル */
+#school_logo {
+}
+
+/* 第2レベルの見出しのスタイル */
+h2 {
+	border-radius: 8px;
+	font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+/* 第3レベルの見出しのスタイル */
+h3 {
+	font-family:  "M PLUS Rounded 1c", sans-serif;
+}
+
+h3::before {
+}
+
+h3::after {
+}
+
+/* 説明文のスタイル */
+.description {
+}
+
+/* 写真のスタイル */
+img {
+}
+
+/* フッターのスタイル */
+footer {
+}
+
+#footer_link {
+}

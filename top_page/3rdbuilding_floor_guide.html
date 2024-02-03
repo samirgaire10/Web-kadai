@@ -1,165 +1,144 @@
-<!DOCTYPE html>
-<html lang="ja">
-
+﻿<!DOCTYPE  html>
+<html  lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="このサイトでは、日本工学院専門学校の魅力を発信しています。">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-    <title>私の日本工学院</title>
-    <link rel="stylesheet" href="../css/style1.css">
+	<meta  charset="UTF-8">
+	<meta  name="description"  content="このサイトでは、日本工学院専門学校の魅力を発信しています。">
+	<meta  name="viewport"  content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two:400i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:900&display=swap&subset=japanese" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
+	<link href="./style.css" rel="stylesheet" type="text/css">
 
-    <style>
-        h3 {
-            text-align: center;
-        }
-
-        section dl,
-        aside,
-        nav,
-        main,
-        table {
-            padding-right: 10%;
-            padding-left: 10%;
-        }
-
-    </style>
-
+	<title>私の日本工学院</title>
 </head>
-
 <body>
-    <span>
+	<header>
+		<span>
 
-        <div>
-            <p style="font-size: larger;">作成者:K023C2019 ガイレサミル </p>
-        </div>
-        <div>
-            <ul class="nav-links">
-                <i style="padding-left: 92%;" class="bi bi-brightness-high-fill" id="toggleDark"></i>
-            </ul>
-        </div>
-    </span>
-    <h1>日本工学院の紹介</h1>
-
-
-    <nav>
-        <ul>
-            <li><a href="./index.html">
-
-                    トップページ</a></li>
-
-            <li><a href="../myfavorite2/12floor.html">
-
-                    12Fから見える風景</a></li>
-
-            <li><a
-                    href="https://www.tripadvisor.fr/Restaurant_Review-g298215-d6050007-Reviews-Muna-Miyazaki_Miyazaki_Prefecture_Kyushu.html">
-                    美味しいカレー店 ムーナ</a></li>
-
-            <li><a href="../myfavorite1/gakusyoku.html">
-
-                    学食</a></li>
-
-            <li><a href="../other/kabab.html">
-                    蒲田ケバブ ステーション</a></li>
-
-        </ul>
-    </nav>
+			<div>
+				<p style="font-size: larger;">作成者:K023C2019 ガイレサミル </p>
+			</div>
+			<div>
+				<ul class="nav-links">
+					<i style="padding-left: 92%;" class="bi bi-brightness-high-fill" id="toggleDark"></i>
+				</ul>
+			</div>
+		</span>
 
 
-    </header>
+		<div id="site_title">
+            <h1 id="sub_title"><span id="sub_title_head">My Favorite School</span><span id="sub_title_body">私が通っている学校を紹介</span></h1><h1 id="main_title">私の日本工学院</h1>
+			<img src="./images/IMG_0351-resize.jpg" alt="日本工学院専門学校の公式キャラクターかまトゥ" id="school_character">
+		</div>
+		<!-- グローバルナビゲーション -->
+		
+
+		<nav id="gnavi">
+			<ul>
+				<li><a href="./index.html">
+	
+						トップページ</a></li>
+	
+				<li><a href="../myfavorite2/12floor.html">
+	
+						12Fから見える風景</a></li>
+	
+				<li><a
+						href="https://www.tripadvisor.fr/Restaurant_Review-g298215-d6050007-Reviews-Muna-Miyazaki_Miyazaki_Prefecture_Kyushu.html">
+						美味しいカレー店 ムーナ</a></li>
+	
+				<li><a href="../myfavorite1/index.html">
+	
+						学食</a></li>
+	
+				<li><a href="../other/kabab.html">
+						蒲田ケバブ ステーション</a></li>
+	
+			</ul>
+		</nav>
 
 
-
-
-    <div>
-        <a href="../top_page/index.html">トップページ</a>
-        <span>&gt;</span>フロアガイド
-    </div>
-    <h2>COLLEGE FLOOR GUIDE</h2>
-
-    <h3>専門学校 フロアガイド</h3>
-    <main>
-        <img src="../images/3rdbuilding.jpg" width="400" height=250"></a>
-        <br>
-        <table border="1">
-            <caption>3 号館</caption>
-            <thead>
+	</header>
+	<main>
+	<!-- パンくずリスト -->
+		<ol class="bcrumb">
+			<li><a href="../top_page/index.html">トップページ</a></li>
+			<li>フロアガイド</li>
+		</ol>
+		<!-- ページの説明 -->
+		<h2>COLLEGE　FLOOR　GUIDE</h2>
+		<h3>専門学校　フロアガイド</h3>
+		<!-- 写真 -->
+		<img src="./images/3rdbuilding.jpg" id="building">
+		<!-- 3号館フロアガイド -->
+		<table>
+			<caption>3号館</caption>
+			<thead>
+				<tr>
+					<th>フロア</th>
+					<th>施設</th>
+					<th>説明</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th rowspan="2">12F</th>
+					<td>学生ラウンジ</td>
+					<td>学生が自由に使えるスペースです</td>
+				</tr>
+				<tr>
+					<td>有隣堂</td>
+					<td>学用品や教科書、雑誌、専門図書を購入できます</td>
+				</tr>
+				<tr>
+					<th>9F</th>
+					<td>ITカレッジ教員室</td>
+					<td>ITカレッジの先生がいます</td>
+				</tr>
+				<tr>
+					<th rowspan="2">7F<br>6F</th>
+					<td>実習室</td>
+					<td>コンピュータを使用した実習で使用する教室です</td>
+				</tr>
+				<tr>
+					<td>一般教室</td>
+					<td>座学で使用する教室です</td>
+				</tr>
+				<tr>
+					<th rowspan="2">5F</th>
+					<td>AIシステム科実習室</td>
+					<td>次年度新設される学科用の実習室です</td>
+				</tr>
+				<tr>
+					<td>情報ビジネス科ホテルコース実習室</td>
+					<td>本番さながらの実習を行える設備が整った実習室です</td>
+				</tr>
                 <tr>
-                    <th>フロア</th>
-                    <th>施設</th>
-                    <th>説明</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th rowspan="2">12F</th>
-                    <td>学生ラウンジ</td>
-                    <td>学生が自由に使えるスペースです</td>
-                </tr>
-                <tr>
-                    <td>有隣堂</td>
-                    <td>学用品や教科書、雑誌、
-
-                        専門図書を購入できます</td>
-
-                </tr>
-                <tr>
-                    <th>9F</th>
-                    <td>IT カレッジ教員室</td>
-                    <td>IT カレッジの先生がいます</td>
-                </tr>
-                <tr>
-                    <th rowspan="2">7F・6F</th>
-                    <td>実習室</td>
-                    <td>コンピュータを使用した実習で使用する教室です</td>
-                </tr>
-                <tr>
-                    <td>一般教室</td>
-                    <td>座学で使用する教室です</td>
-                </tr>
-                <tr>
-                    <th rowspan="2">5F</th>
-
-                    <td>AI システム科実習室</td>
-                    <td>次年度新設される学科用の実習室です</td>
-                </tr>
-                <tr>
-                    <td>情報ビジネス科ホテルコース実習室</td>
-                    <td>本番さながらの実習を行える設備が整った
-                        実習室です</td>
-
-                </tr>
-                <th>4F</th>
-                <td>図書室</td>
-                <td>個室もあるため、集中して勉強に励めます</td>
-                </tr>
-                </tr>
-                <th>2F</th>
-                <td>教育・学生支援部</td>
-                <td>各種手続きや証明書の発行を行ってくれる
-                    場所です</td>
-
-                </tr>
-                </tr>
-                <th>1F</th>
-                <td>キャリアサポートセンター</td>
-                <td>就職支援を行ってくれます</td>
-                </tr>
-                </tr>
-                <th>B1F</th>
-                <td>片柳記念ホール</td>
-                <td>各種発表会や講演を開催するためのホールです</td>
-                </tr>
-            </tbody>
-        </table>
-    </main>
-
-
-    <a href="index.html">←ホームに戻る</a>
-
-    <footer>
+					<th>4F</th>
+					<td>図書室</td>
+					<td>個室もあるため、集中して勉強に励めます</td>
+				</tr>
+				<tr>
+					<th>2F</th>
+					<td>教育・学生支援部</td>
+					<td>各種手続きや証明書の発行を行ってくれる場所です</td>
+				</tr>
+				<tr>
+					<th>1F</th>
+					<td>キャリアサポートセンター</td>
+					<td>就職支援を行ってくれます</td>
+				</tr>
+				<tr>
+					<th>B1F</th>
+					<td>片柳記念ホール</td>
+					<td>各種発表会や講演を開催するためのホールです</td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
+	 <footer>
         <nav>
             <ul class="nav-links">
                 <li>
@@ -178,6 +157,7 @@
         Copyright &copy; 2023 <b> @samirgaire10 </b>All Rights Reserved.
     </footer>
 </body>
-<script src="../contact/js/script.js"></script>
 
-</html>
+<script src="../contact/js/script.js"></script>
+</body>
+</html>	

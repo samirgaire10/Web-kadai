@@ -1,0 +1,175 @@
+﻿@charset "UTF-8";
+
+/* 本文の基本スタイル */
+body {
+	font-family: "Kosugi Maru", sans-serif;
+}
+
+/* Webサイトのタイトルのスタイル */
+#site_title {
+	opacity: 0.5;
+	border: 2px solid #b79b5b;
+	border-radius: 8px;
+	position: relative;
+	color: #5a544b;
+}
+
+#site_title img {
+	opacity: 0.5;
+}
+/* メインタイトルのスタイル */
+#main_title {
+	/*border:1px solid black;*/
+	background-color: #f5f5f5;
+	text-align: right;
+	font-size: 3em;
+	font-family:  "M PLUS Rounded 1c", sans-serif;
+	padding-right: 50px;
+	padding-bottom:50px;
+	position: relative;
+	margin:0px 10px;
+}
+
+/* サブタイトルのスタイル */
+#sub_title {
+	/*border:1px solid black;*/
+	background-color: #f5f5f5;
+	text-align: right;
+	padding-right: 50px;
+	padding-top:50px;
+	font-size: 1em;
+	position: relative;
+	margin:0px 10px;
+}
+
+#sub_title_head {
+	font-family: "Lobster Two", sans-serif;
+	margin-right: 1em;
+}
+
+#sub_title_body {
+	font-family:  "M PLUS Rounded 1c", sans-serif;
+}
+
+/* スクールキャラクタのスタイル */
+#school_character {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	width: auto;
+	height: 95%;
+}
+
+/* グローバルナビゲーションのスタイル */
+#gnavi ul {
+	display: flex;
+	list-style-type: ;
+	justify-content: flex-start; ;
+	padding: 0;
+}
+
+#gnavi ul li a {
+	display: flex;
+	border: 1px none;
+	border-radius: 8px;
+	padding:10px 10px;
+	text-align:center ;
+	margin: 5px;
+	width: 200px;
+	line-height: 50px;	/* 高さを指定することで、文字を縦方向の中央に配置できる */
+	background-color: #5a544b;
+	color: ivory;
+	text-decoration: ;
+	font-family:  "M PLUS Rounded 1c", sans-serif;
+}
+
+/* パンくずリストのスタイル */
+
+
+
+ol.bcrumb {
+	margin: 10px 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	font-family: "M PLUS Rounded 1c", sans-serif;
+	justify-content: flex-start; 
+  }
+
+  ol.bcrumb li::after {
+	margin: 0 10px;
+  }
+
+  ol.bcrumb li:last-child::after {
+	margin-right: 10px;
+  }
+
+/* 第2レベルの見出しのスタイル */
+h2 {
+	border: 4px solid ivory; 
+	border-radius: 8px;
+	padding: 8px;
+	background-color: #7fbfff;
+	color: ivory;
+	font-size: 2em;
+	font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+/* 第3レベルの見出しのスタイル */
+h3 {
+	clear: left;
+	padding-top: 1em;
+	color: darkolivegreen;
+	font-size: 1.5em;
+	font-family:  "M PLUS Rounded 1c", sans-serif;
+}
+
+h3::before {
+	content: "★";
+}
+
+h3::after {
+	content: "★";
+}
+
+/* 建物の写真のスタイル */
+#building {
+	display: block;
+	border: 1px solid #b79b5b;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 50%;
+	height: auto;
+}
+
+/* 表のスタイル */
+table {
+	border: 1px solid ivory;
+}
+
+th {
+	padding: 10px;
+	background: #5a544b;
+	color: ivory;
+	white-space: nowrap;
+}
+
+td {
+	padding: 10px;
+	background: #d4dcda;
+}
+
+caption {
+	font-size: 1.5em;
+}
+
+/* フッターのスタイル */
+footer {
+	clear: left;
+	padding-top: 1em;
+}
+
+#footer_link {
+	margin-right: 1em;
+}

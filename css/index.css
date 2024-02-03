@@ -1,0 +1,44 @@
+.first_header{
+    background-color: darkgreen;
+    border-style: 4px dashed ivory;
+    font-size: 4em ivory ;
+    padding:  0.5em;
+}
+
+nav ul{
+    line-height:  2em;
+}
+
+section img{
+background-color: darkseagreen;
+font-family: sans-serif;
+}
+
+
+.second_header{
+    font-size: 2em ;
+    color:  ivory;
+    background-color:  darkgreen;
+    padding:  0.5em;
+}
+
+
+.paragraph{
+    line-height: 1.5em;
+    text-indent: 1em;          
+}
+
+.third_header{
+    font-size:  2em;
+    color:  ivory ;
+    background-color:  darkgreen;
+    padding:  0.5em;
+}
+
+.updownside{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+

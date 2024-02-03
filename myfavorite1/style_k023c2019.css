@@ -1,0 +1,114 @@
+﻿@charset "UTF-8";
+
+/* 本文の基本スタイル */
+body {
+	background-color: #baf2d2;
+	font-family: "Kosugi Maru", sans-serif;
+}
+
+
+/* Webサイトのタイトルのスタイル */
+#site_title {
+	position: relative;
+	background-color: #ff7f7f;
+	outline: 4px dashed snow;
+	box-shadow: 0 0 0 4px #ff7f7f;
+}
+
+/* メインタイトルのスタイル */
+#main_title {
+    border-radius: 8px;
+    padding: 1em 50px 1em 1em;
+    color: ivory;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    box-shadow: 0 0 0 4px #ff7f7f;
+}
+
+
+#sub_title {
+    position: absolute;
+    bottom: 4px;
+    right: 50px;
+    width: 90%;
+    height: 24%;
+    box-sizing: border-box;
+    background-color: #7fbfff;
+    border: 4px solid ivory;
+    border-radius: 8px;
+    padding: 5px 0 5px;
+    font-size: 1em;
+}
+
+
+#sub_title_head {
+	font-family: "Lobster Two", sans-serif;
+	margin-right: 1em;
+}
+
+#sub_title_body {
+	font-family:  "M PLUS Rounded 1c",sans-serif;
+}
+
+/* ロゴのスタイル */
+#school_logo {
+	position: absolute;
+    top: 20px; right:50px;
+}
+
+/* 第2レベルの見出しのスタイル */
+h2 {
+	border: 4px solid ivory;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #7fbfff;
+    color: ivory;
+    font-size: 2em;
+    font-family: "M PLUS Rounded 1c";
+}
+
+/* 第3レベルの見出しのスタイル */
+h3 {
+    font-family: "M PLUS Rounded 1c";
+    float: none;
+    padding-top: 1em;
+    color: darkolivegreen;
+    font-size: 1.5em;
+    clear: left;
+}
+
+h3::before,
+h3::after {
+    content: "★";
+}
+
+
+/* 説明文のスタイル */
+.description {
+	float: none;
+    padding-left: 1em;
+    color: dimgray;
+    line-height: 1.5;
+    text-indent: 1em;
+    text-align: justify;
+    font-size: 1em;
+}
+
+/* 写真のスタイル */
+img {
+	float: left;
+    margin-right: 20px;
+	
+}
+
+/* フッターのスタイル */
+footer {
+	/* float: none; */
+    padding-top: 1em;
+    clear: both;
+
+}
+
+#footer_link {
+	margin-right: 1em;
+	
+}
